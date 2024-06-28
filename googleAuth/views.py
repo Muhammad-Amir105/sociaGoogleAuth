@@ -51,3 +51,6 @@ class googleAuthentication(APIView):
                 return Response({'error': 'missing id_token'}, status=status.HTTP_400_BAD_REQUEST)
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+print("jdf")
