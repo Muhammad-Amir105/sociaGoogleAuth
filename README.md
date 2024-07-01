@@ -26,19 +26,19 @@ source venv/bin/activate
 Install Django:
 
 ``` bash 
-pip install Django>=3.0,<4.0
+pip install Django
 ```
 
 Install Django REST Framework:
 
 ``` bash 
-pip install djangorestframework>=3.12,<4.0
+pip install djangorestframework
 ```
 
 Install Django REST Framework Simple JWT:
 
 ``` bash 
-pip install djangorestframework-simplejwt>=4.7.2,<5.0 
+pip install djangorestframework-simplejwt
 ```
 ### Set up Google OAuth Credentials:
 
